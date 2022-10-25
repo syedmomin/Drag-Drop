@@ -1,0 +1,131 @@
+body {
+  background: url(background.jpg);
+  background-repeat: round;
+  background-attachment:fixed;
+}
+.cont{
+  background-color: #1c2754;
+  color:aliceblue;
+  border-radius: 25px;
+  width: 65%;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 20%;
+}
+.risk{
+  position: absolute;
+  left: 35%;
+  background-color: #4868d9;
+  color: white;
+  width: 300px;
+  height: 240px;
+  border-radius: 70px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 19px;
+  margin-top: 50px;
+
+}
+.risk2{
+  position: absolute;
+  left: 35%;
+  background-color: #34badb;
+  color: white;
+  width: 300px;
+  height: 240px;
+  border-radius: 70px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 19px;
+  margin-top: 50px;
+}
+.rk{
+  font-size: 28px;
+  margin: 75px;
+}
+#hd1{
+  font-size: 28px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 780;
+  text-align: center;
+  color:  #686868;
+  }
+  #hd2{
+  font-size: 28px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 780;
+  text-align: center;
+  color: #1c2754;
+  }
+  .count{
+    width:100px;
+    height: 35px;
+    border: 2px solid rgb(104, 106, 112);
+    border-radius: 50px;
+    font-size: 20px;
+   font-weight:bolder;
+   margin:0 auto;
+    margin-bottom:5px;
+   }
+   .counttxt{
+   font-size: 20px;
+   font-weight: bold;
+   color: rgb(104, 106, 112);
+   
+   }
+@media (min-width: 320px) and (max-width:1000px) {
+
+.count{
+width:150px;
+border: 2px solid rgb(104, 106, 112);
+border-radius: 50px;
+font-size: 20px;
+font-weight:bolder;
+margin:0 auto;
+margin-bottom:5px;
+}
+.counttxt{
+font-size: 20px;
+font-weight: bold;
+color: rgb(104, 106, 112);
+
+}
+}
+::-webkit-scrollbar {
+width: 10px; 
+height: 8px;          
+border: 1px solid #d5d5d5;
+}
+::-webkit-scrollbar-thumb {
+background: rgb(98, 98, 98); 
+border-radius: 20px;
+}   
+
+.tooltipp {
+position: relative;
+/* display: inline-block;
+border-bottom: 1px dotted black; */
+}
+
+.tooltipp .tooltiptext {
+ visibility: hidden;
+ width: 350px;
+  background-color: #ffffffe6;
+  color: #000;
+  box-shadow:#adb5bd 0px 5px 15px;;
+  padding: 7px;
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  left: 30%;
+  margin-left: -60px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.tooltipp:hover .tooltiptext{
+visibility: visible;
+}
